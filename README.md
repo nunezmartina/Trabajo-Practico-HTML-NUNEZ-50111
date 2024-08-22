@@ -1,6 +1,6 @@
 En el presente repositorio se puede observar 4 carpetas:
 
-musica:acá es está descargado los audios utilizados en la página web
+musica: acá es está descargado los audios utilizados en la página web
 
 imag: acá está descargado las imagenes utilizados en la página web
 
