@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP HTML-NUÑEZ-50111</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        } 
+        header,footer {
+            background-color: rgb(23, 151, 87);
+            color: #000000;
+            padding: 10px;
+        }
+        main{
+            background-color: rgb(196, 219, 139);
+            padding: 10px;
+            border: #000000;
+        }
+        section{
+            margin-bottom: 20px;
+        }
+        table, th, td {
+            border: 4px double black;
+            border-collapse: collapse;
+            background-color: #f2f2f2;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="color: #1f1515;text-align: center;">Encabezado Principal</h1>
+        <nav >
+            <ul>
+             <li><a href="#encabezadoPropiedades" style="color: #19218d;">Encabezados y Propiedades de texto</a></li>
+             <li><a href="#enlaceylistas" style="color:  #19218d;">Enlaces y Listas</a></li>
+             <li><a href="#elementosMultimedia"style="color: #19218d;">Elementos Multimedia</a></li>
+             <li><a href="#tablas" style="color: #19218d;">Tablas</a></li>
+             <li><a href="#formularios" style="color: #19218d;">Formularios</a></li>
+             <li><a href="#articulo" style="color:  #19218d;">Articulo</a></li>
+             <li><a href="#informacionRelacionada" style="color:  #19218d;">Informacion Adicional</a></li>
+            </ul>
+         </nav>
+
+    </header>
+   
+    <main>
+        <section id="Estructura">
+            <h1><u>Estructura Básica del Documento HTML</u></h1>
+          
+        </section>
+
+
+        <section id ="encabezadoPropiedades">
+            <h1>1. Encabezados y Propiedades del Texto</h1> 
+            
+            <h1>Este es un h1</h1>
+            <h2>Este es un h2</h2>
+            <h3>Este es  un h3</h3>
+            <h4>Este es un h4</h4>
+            <h5>Este es  un h5</h5>
+            <h6>Este es un h6</h6>
+            <p><b>Este es un texto en negrita</b></p>
+            <p><em style="color: rgb(85, 7, 255)">Este es un texto en cursiva</em></p>
+            <p><mark>Este es un texto resaltado</mark></p>
+            <p><u>Este es un texto subrayado</u></p>
+            <p>Este es un texto con <span style="color: rgb(134, 26, 93);">estilo en cierta parte del texto</span> haciendo uso de la etiqueta span y la etiqueta style</p>
+        </section><br>
+
+        <section>
+            <h1>2. Divisiones y Agrupación de Contenido</h1>
+        <div>
+            <h4>Seccion 1</h4>
+            <p>Contenido de la primera sección agrupada en div</p>
+        </div>
+
+        <div>
+            <h4>Seccion 2</h4>
+            <p>Contenido de la segunda sección agrupada en div </p>
+        </div>
+        </section><br>
+        <section id="enlaceylistas">
+            <h1>3. Enlaces y Listas</h1>
+            <nav >
+               <p>Visita nuestro <a href="https://www4.frm.utn.edu.ar/" target="_blank" style="color: rgb(23, 151, 119)">sitio web</a> para más información</p>
+               <h4>Enlaces Internos:</h4>
+               <ul> 
+                <li><a href="#encabezadoPropiedades" style="color: rgb(23, 151, 119)">Ir a Encabezados y Propiedades de texto</a></li>
+                <li><a href="#enlaceylistas" style="color: rgb(23, 151, 119)">Ir a Enlaces y Listas</a></li>
+                <li><a href="#elementosMultimedia" style="color: rgb(23, 151, 119)">Ir a Elementos Multimedia</a></li>
+                <li><a href="#tablas" style="color: rgb(23, 151, 119)">Ir a Tablas</a></li>
+                <li><a href="#formularios" style="color: rgb(23, 151, 119)">Ir a Formularios</a></li>
+                <li><a href="#articulo" style="color: rgb(23, 151, 119)">Ir a Articulo</a></li>
+                <li><a href="#informacionRelacionada" style="color: rgb(23, 151, 119)">Ir a Informacion Adicional</a></li>
+               </ul>
+            </nav>
+            <h4>Lista desordenada:</h4>
+            <ul>
+                <li>Primer ítem de una lista desordenada</li>
+                <li>Segunda ítem de una lista desordenada</li>
+            </ul>
+            <h4>Lista ordenada:</h4>
+            <ol>
+                <li>Primer ítem de una lista ordenada</li>
+                <li>Segunda ítem de una lista ordenada</li>
+            </ol>
+        </section><br>
+
+        <section id="elementosMultimedia">
+            <h1>4. Elementos Multimedia</h1>
+            <h4>Imagenes</h4>
+              <img src="imag/tt.jpg" alt="Es una imagen de paisaje" loading="lazy"width="410" height="300" >
+              <img src="imag/hy.jpg" alt="Es una imagen" loading="loading="lazy" width="410" height="300">
+              <img src="imag/te.jpg" alt="Es una imagen de atardecer" loading="lazy" width="410" height="300">
+            <h4>Video</h4>
+            <video src="multimedia/video.mp4" controls width="510" height="300"></video>
+            <h4>Audio</h4>
+            <audio src="musica/musica.mp3" controls></audio>
+
+        </section><br>
+
+        <section id="tablas">
+          
+            <h1>5. Tablas</h1>
+            <table>
+                <thead >
+                    <tr border: 1px solid black;>
+                        <th>Columna1</th>
+                        <th>Columna2</th>
+                    </tr>
+
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Dato1</td>
+                    <td>Dato2</td>
+                  </tr>  
+                   <tr>
+                    <td>Dato3</td>
+                    <td>Dato4</td>
+                   </tr>
+                    
+
+                </tbody>
+
+            </table>
+
+        </section><br>
+        <section id="formularios">
+            <h1>6. Formularios</h1>
+            <form action="">
+                <label for=""> Nombre: </label>
+                <input type="text" placeholder="Nombre">
+                <label for=""> Apellido: </label>
+                <input type="email" placeholder="Apellido">
+                <label for=""> Email: </label>
+                <input type="email" placeholder="example@email.com">
+                <label for=""> Mensaje: </label>
+                <textarea></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+
+        </section><br>
+        <article id="articulo">
+            <h1>7. Artículo</h1>
+            <p>Este es el contenido principal del artículo.</p>
+            <aside id="informacionRelacionada">
+                <h1>7.1 Información Relacionada</h1>
+                <p>Este es un cuadro de información adicional relacionado con el artículo.</p>
+            </aside>
+        </article><br>
+
+    </main>
+
+    <footer  style="height: 150px; font-size: 20px; font-weight: 600; line-height: 1.2; text-align: center;">
+        <p>2024 Trabajo Práctico de HTML</p>
+        <p>Martina Nuñez</p>
+        <p>50111</p>
+    </footer>
+</body>
+</html>
