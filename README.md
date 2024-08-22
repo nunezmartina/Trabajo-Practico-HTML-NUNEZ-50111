@@ -8,4 +8,4 @@ multimedia: acá está desccargado los videos utilizados en la página web
 
 index.html: acá se puede encontrar el código de html de la página web
 
-Para visualizar la página web puede entrar por el siguiente link:
+Para visualizar la página web puede entrar por el siguiente link: https://nunezmartina.github.io/Trabajo-Practico-HTML-Nunez-50111/
